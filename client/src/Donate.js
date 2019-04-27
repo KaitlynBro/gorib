@@ -31,4 +31,4 @@ class Donate extends React.Component {
     }
 }
 
-export default Donate
+export default Donate 

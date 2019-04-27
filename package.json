@@ -1,5 +1,5 @@
 {
-  "name": "gorib",
+  "name": "gulp",
   "version": "1.0.0",
   "description": "HackerYou Fullstack Masterclass Project",
   "main": "index.js",
@@ -37,7 +37,8 @@
     "init-package-json": "^1.10.3",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
-    "react-router-dom": "^5.0.0"
+    "react-router-dom": "^5.0.0",
+    "sass": "^1.19.0"
   },
   "devDependencies": {
     "gulp-install": "^1.1.0",
