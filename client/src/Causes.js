@@ -1,5 +1,5 @@
 import React from 'react';
-// import causeBg from './causes-bg.png'
+import causeBg from './causes-bg.png'
 import causeOne from './causeOne.jpg';
 import causeTwo from './causeTwo.jpg';
 import causeThree from './causeThree.jpg';
@@ -16,7 +16,7 @@ class Causes extends React.Component {
                     <img src={headerOrange} alt="" className="header-icon" />
                     <h2>Latest Causes</h2>
                     <p>We use your donations to help vulnerable children and young people turn their lives around</p>
-                    {/* <img src={causeBg} alt="" className="causes-wrapper-bg" /> */}
+                    <img src={causeBg} alt="" className="causes-wrapper-bg" />
                 </div>
                 <div className="causes-content">
                     <div className="cause">

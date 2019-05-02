@@ -274,6 +274,11 @@ button.button-single:hover {
 }
 
 /* causes */
+.causes-wrapper {
+	position:relative;
+	margin:100px 0;
+}
+
 .causes-wrapper .causes-header {
 	text-align: center;
 	margin:0 auto;
@@ -303,6 +308,11 @@ button.button-single:hover {
 	flex-direction: row;
 	align-items:center;
 	margin-top:45px;
+	flex-wrap: wrap;
+	position: absolute;
+	left: 0;
+    right: 0;
+    top: 15%;
 }
 
 .cause-text .cause-text-top {
@@ -380,4 +390,9 @@ button.button-single:hover {
 .cause-text-bottom ul li:nth-child(2) {
 	color: #ff6139;
 	margin-top:15px;
+}
+
+.causes-wrapper .causes-wrapper-bg {
+	width:100%;
+	max-height: 900px;
 }
