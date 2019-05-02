@@ -1,4 +1,5 @@
 import React from 'react';
+import searchIcon from './search.png';
 
 class Search extends React.Component {
   constructor(props) {
@@ -7,13 +8,6 @@ class Search extends React.Component {
 
     this.handleSubmit = this.handleSubmit.bind(this)
     this.handleChange = this.handleChange.bind(this)
-    this.handleClick = this.handleClick.bind(this)
-  }
-
-  handleClick(event) {
-    const displayShow = document.getElementById('show');
-    displayShow.style.display = "none";
-    displayShow.classList.add('test')
   }
 
   handleChange(event) {
@@ -21,19 +15,21 @@ class Search extends React.Component {
   }
 
   handleSubmit(event) {
-    alert('You just searched for' + this.state.value)
+    // alert('You just searched for ' + this.state.value)
+    document.getElementById('search-results').append(this.state.value);
+    document.getElementById('search-results').classList.add('search-results')
     event.preventDefault();
   }
 
   render() {
     return (
-      <form onSubmit={this.handleSubmit}>
+      <form onSubmit={this.handleSubmit} className="search-form">
         <label>
-          <input type="text" id="show" onClick={this.handleClick} value={this.state.value} onChange={this.handleChange} />
-          <i className="fas fa-search"  ></i>
+          <input type="text" value={this.state.value} onChange={this.handleChange} className="search-text" />
         </label>
         <label>
-          <input type="submit" value="" onSubmit={this.handleSubmit} />
+          <input type="submit" onSubmit={this.handleSubmit} value='' className="search-submit" />
+          <img src={searchIcon} alt="" className="search-icon" />
         </label>
       </form>
     )

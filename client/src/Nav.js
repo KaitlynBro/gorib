@@ -20,6 +20,9 @@ class Nav extends React.Component {
                     <span className="nav-item nav-item--search">
                         <Search />
                     </span>
+                    <div id="search-results">
+                    
+                    </div>
                 </div>
             </div>
         )
