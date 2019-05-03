@@ -1,14 +1,17 @@
 import React from 'react';
+import worldVisionBg from './worldVision.png';
+import orangeBlob from './info-orange.png';
 
 class Info extends React.Component {
     render() {
         return(
-            <div>
-                <div>
-                    {/* bg image lives here */}
+            <div className="info-wrapper">
+                <div className="info-bg">
+                    <img src={worldVisionBg} alt="" />
                 </div>
-                <div>
+                <div className="info-copy">
                     <h4>
+                        <img src={orangeBlob} alt="" />
                         Welcome to Gorib please<br />
                         raise your hand
                     </h4>

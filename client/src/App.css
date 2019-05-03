@@ -396,3 +396,42 @@ button.button-single:hover {
 	width:100%;
 	max-height: 900px;
 }
+
+/* info */
+
+.info-wrapper {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items:center;
+}
+
+.info-bg {
+	width:40%;
+}
+.info-bg img {
+	max-width: 565px;
+}
+
+.info-copy {
+	width:50%;
+}
+
+.info-copy h3, .info-copy h4 {
+	font-family: 'Comfortaa', cursive;
+}
+
+.info-copy h3 {
+	font-size: 38px;
+	color: #272626;
+	
+}
+
+.info-copy h4 {
+	display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+	align-items: flex-start;
+	font-size: 24px;
+	color: #fd7611;
+}
