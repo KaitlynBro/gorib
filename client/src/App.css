@@ -276,7 +276,7 @@ button.button-single:hover {
 /* causes */
 .causes-wrapper {
 	position:relative;
-	margin:100px 0;
+	margin:50px 0;
 }
 
 .causes-wrapper .causes-header {
@@ -408,6 +408,7 @@ button.button-single:hover {
 
 .info-bg {
 	width:40%;
+	margin-top: 100px;
 }
 .info-bg img {
 	max-width: 565px;
@@ -424,7 +425,19 @@ button.button-single:hover {
 .info-copy h3 {
 	font-size: 38px;
 	color: #272626;
-	
+	line-height:48px;
+	max-width: 700px;
+	position: relative;
+}
+
+.info-copy h3:after {
+	position: absolute;
+    content: "";
+    width: 100px;
+    height: 3px;
+    background: #fd7611;
+    bottom: -20px;
+    left: 0;
 }
 
 .info-copy h4 {
@@ -434,4 +447,119 @@ button.button-single:hover {
 	align-items: flex-start;
 	font-size: 24px;
 	color: #fd7611;
+	margin:0;
+}
+
+.info-copy-blob {
+	margin-block-end: 45px;
+}
+
+.info-copy-paragraph {
+	position: relative;
+}
+
+.info-copy-paragraph p {
+	font-family:  'Muli', sans-serif;
+	font-size: 18px;
+	max-width: 500px;
+	margin-left: 30px;
+}
+
+.info-copy-paragraph span {
+	position: absolute;
+    right: 0;
+    top: 20%;
+}
+
+.info-copy-paragraph span img {
+	background-color: #fd7611;
+    border-radius: 100%;
+	padding:20px;
+}
+
+/* donate */
+
+.donate-wrapper {
+	margin:50px 0;
+}
+
+.donate-content {
+	display:flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.donate-content:first-of-type .donate-copy {
+	order:0;
+}
+
+.donate-content:first-of-type .donate-image {
+	order:1;
+}
+
+.donate-content:nth-child(2) .donate-copy {
+	order:1;
+}
+
+.donate-content:nth-child(2) .donate-image {
+	order:0;
+}
+
+.donate-copy h4 {
+	font-family: 'Comfortaa', cursive;
+	font-size: 24px;
+	line-height:34px;
+	color: #fcb27b;
+	margin:20px 0;
+}
+
+.donate-copy h3 {
+	font-family: 'Comfortaa', cursive;
+	font-size: 38px;
+	line-height: 48px;
+	color:black;
+	font-weight: 400;
+	position: relative;
+	margin:0;
+	max-width: 400px;
+}
+
+.donate-copy h3:after {
+	position: absolute;
+    content: "";
+    width: 60px;
+    height: 3px;
+    background: #fd7611;
+    bottom: -20px;
+    left: 0;
+}
+
+.donate-copy p {
+	font-family:  'Muli', sans-serif;
+	font-size: 18px;
+	line-height: 28px;
+	color:black;
+	max-width: 510px;
+	margin:40px 0;
+}
+
+.donate-image {
+	display: flex;
+    align-items: center;
+	justify-content: center;
+	padding-top: 50px;
+}
+
+.donate-image img:first-of-type {
+	max-height: 300px;
+	min-width: 400px;
+	z-index: 1;
+}
+
+.donate-image img:last-child {
+	max-height: 350px;
+	min-width: 450px;
+	position: absolute;
+	
 }
