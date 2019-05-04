@@ -12,12 +12,9 @@ class Nav extends React.Component {
                 <h1>Gorib</h1>
                 </div>
                 <div className="nav-items">
-                    <button className="nav-item">Home</button>
-                    <button className="nav-item">Services</button>
                     <button className="nav-item">Causes</button>
                     <button className="nav-item">Sponsorship</button>
-                    <button className="nav-item">Impact</button>
-                    <button className="nav-item">Statistics</button>
+                    <button className="nav-item">Events</button>
                     <button className="nav-item">Volunteer</button>
                     <span className="nav-item nav-item--search">
                         <Search />
