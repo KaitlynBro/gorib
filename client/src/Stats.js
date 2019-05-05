@@ -1,4 +1,5 @@
 import React from 'react';
+import background from './stats-bg.png';
 import people from './people.png';
 import hands from './hands.png';
 import heartbeat from './heartbeat.png';
@@ -8,6 +9,7 @@ class Stats extends React.Component {
     render() {
         return (
             <div className="stats-wrapper">
+                <img src={background} alt="" className="stats-bg"/>
                 <div className="stats-content">
                     <div className="stat">
                         <img src={people} alt="" />
@@ -29,9 +31,6 @@ class Stats extends React.Component {
                         <h3>Donated</h3>
                         <p>900K</p>
                     </div>
-                </div>
-                <div className="stats-copy">
-                    <p>If you don’t see what you’re looking for here, get in touch with us directly at <a href="mailto:info@Gorib.org">info@Gorib.org</a> or by calling <span class="orange">029292162</span> We’d love to help you find the best way to contribute.</p>
                 </div>
 `            </div>
         )
