@@ -6,7 +6,7 @@ import Causes from './Causes';
 import Info from './Info';
 import Donate from './Donate';
 import Stats from './Stats';
-// import Events from './Events';
+import Events from './Events';
 // import Volunteer from './Volunteer';
 // import Footer from './Footer';
 import './App.css';
@@ -22,7 +22,7 @@ class App extends Component {
         <Info />
         <Donate />
         <Stats />
-        {/* <Events /> */}
+        <Events />
         {/* <Volunteer /> */}
         {/* <Footer /> */}
       </div> 
