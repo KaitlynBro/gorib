@@ -823,3 +823,55 @@ button.button-single:hover {
 .event-day:hover {
 	background:linear-gradient(30deg, #fc5c62, #fda865 73%);
 }
+
+/* volunteer */
+
+.volunteer-wrapper {
+	position: relative;
+	left: 0;
+    right: 0;
+    margin: 50px auto;
+    max-width: 900px;
+}
+
+.volunteer-wrapper img {
+	max-width: 900px;
+    height: 270px;
+}
+
+.volunteer-content {
+    margin: 0 auto;
+    width: 800px;
+	padding: 30px 20px;
+	position: absolute;
+    top: 0;
+    left: 20px;
+}
+
+.volunteer-content h2 {
+	font-family: 'Comfortaa', cursive;
+	font-size:30px;
+	color: #fff;
+	text-transform:uppercase;
+}
+
+.volunteer-content p {
+	font-family:'Muli', sans-serif;
+	font-size: 16px;
+	color: #fff;
+}
+
+.volunteer-content-flex {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.volunteer-content p {
+	max-width: 600px;
+}
+
+.volunteer-content-flex .button-single.white {
+	color: white;
+	background:#fc5c62;
+}
