@@ -994,15 +994,19 @@ button.button-single:hover {
 
 .footer-right button {
 	padding:30px 0;
-	border-bottom:1px solid #fcb27b;
+	border-bottom:2px solid #fcb27b;
 	background: transparent;
 }
 
-.footer-center button {
+.footer-right button:first-of-type:hover {
+	border-top:2px solid #fcb27b;
+}
+
+.footer button {
 	position: relative;
 }
 
-.footer-center button::before, .footer-center button::after {
+.footer button::before, .footer button::after {
 	content: '';
 	position: absolute;
 	top: 0;
@@ -1013,22 +1017,22 @@ button.button-single:hover {
 	transition: transform 0.5s ease;
   }
   
-  .footer-center button::before {
+  .footer button::before {
 	left: -8px;
 	transform-origin: center top;
   }
   
-  .footer-center button:hover::before {
+  .footer button:hover::before {
 	transform-origin: center bottom;
 	transform: scaleY(1);
   }
   
-  .footer-center button::after {
+  .footer button::after {
 	right: -8px;
 	transform-origin: center bottom;
   }
   
-  .footer-center button:hover::after {
+  .footer button:hover::after {
 	transform-origin: center top;
 	transform: scaleY(1);
   }
