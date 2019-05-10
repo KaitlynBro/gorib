@@ -1,12 +1,12 @@
 import React from 'react';
-import causeBg from './causes-bg.png'
-import causeOne from './causeOne.jpg';
-import causeTwo from './causeTwo.jpg';
-import causeThree from './causeThree.jpg';
-import headerOrange from './orangeHeader.png';
-import statisticBlue from './StatBlue.png';
-import statisticGreen from './StatisticGreen.png';
-import statisticPurple from './StatisticPurple.png';
+import causeBg from './assets/causes-bg.png'
+import causeOne from './assets/causeOne.jpg';
+import causeTwo from './assets/causeTwo.jpg';
+import causeThree from './assets/causeThree.jpg';
+import headerOrange from './assets/orangeHeader.png';
+import statisticBlue from './assets/StatBlue.png';
+import statisticGreen from './assets/StatisticGreen.png';
+import statisticPurple from './assets/StatisticPurple.png';
 
 class Causes extends React.Component {
     render() {

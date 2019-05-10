@@ -1,7 +1,7 @@
 import React from 'react';
-import hearts from './hearts.png';
-import adopt from './adopt.png';
-import services from './services-bg.png';
+import hearts from './assets/hearts.png';
+import adopt from './assets/adopt.png';
+import services from './assets/services-bg.png';
 
 class Services extends React.Component {
     render() {

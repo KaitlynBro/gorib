@@ -1,6 +1,6 @@
 import React from 'react';
-import orangeBlob from './orangeBlob.png';
-import eventBg from './events.png';
+import orangeBlob from './assets/orangeBlob.png';
+import eventBg from './assets/events.png';
 
 class Events extends React.Component {
     render() {

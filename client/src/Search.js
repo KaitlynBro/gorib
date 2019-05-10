@@ -1,5 +1,5 @@
 import React from 'react';
-import searchIcon from './search.png';
+import searchIcon from './assets/search.png';
 
 class Search extends React.Component {
   constructor(props) {

@@ -1,9 +1,9 @@
 import React from 'react';
-import background from './stats-bg.png';
-import people from './people.png';
-import hands from './hands.png';
-import heartbeat from './heartbeat.png';
-import money from './money.png';
+import background from './assets/stats-bg.png';
+import people from './assets/people.png';
+import hands from './assets/hands.png';
+import heartbeat from './assets/heartbeat.png';
+import money from './assets/money.png';
 
 class Stats extends React.Component {
     render() {

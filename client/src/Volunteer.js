@@ -1,5 +1,5 @@
 import React from 'react';
-import background from './volunteer.png';
+import background from './assets/volunteer.png';
 
 class Volunteer extends React.Component {
     render() {

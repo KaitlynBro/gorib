@@ -1,8 +1,8 @@
 import React from 'react';
-import blob from './donate-blob.png'
-import infoWorld from './info-world.png';
-import infoHeart from './info-heart.png';
-import background from './donate-background.png';
+import blob from './assets/donate-blob.png'
+import infoWorld from './assets/info-world.png';
+import infoHeart from './assets/info-heart.png';
+import background from './assets/donate-background.png';
 
 class Donate extends React.Component {
     render() {

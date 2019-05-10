@@ -1,6 +1,6 @@
 import React from 'react';
-import hero from './hero-bg.png';
-import orange from './orangeBlob.png';
+import hero from './assets/hero-bg.png';
+import orange from './assets/orangeBlob.png';
 
 class Header extends React.Component {
     render() {

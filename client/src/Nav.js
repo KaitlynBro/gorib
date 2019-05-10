@@ -1,6 +1,6 @@
 import React from 'react';
 import Search from './Search'
-import logo from './gorib-logo.png';
+import logo from './assets/gorib-logo.png';
 
 
 class Nav extends React.Component {

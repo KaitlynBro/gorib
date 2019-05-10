@@ -1,7 +1,7 @@
 import React from 'react';
-import worldVisionBg from './worldVision.png';
-import orangeBlob from './info-orange.png';
-import cash from './cash-hand.png';
+import worldVisionBg from './assets/worldVision.png';
+import orangeBlob from './assets/info-orange.png';
+import cash from './assets/cash-hand.png';
 
 class Info extends React.Component {
     render() {

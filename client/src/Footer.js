@@ -1,6 +1,6 @@
 import React from 'react';
 // import Form from './Form';
-import logo from './gorib-logo.png';
+import logo from './assets/gorib-logo.png';
 
 class Footer extends React.Component {
     render() {
