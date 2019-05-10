@@ -1,75 +1,70 @@
 import React from 'react';
 // import Form from './Form';
 import logo from './gorib-logo.png';
-import facebook from './fb.svg';
-import google from './google.svg';
-import linkedin from './linkedin.svg';
-import twitter from './twitter.svg';
-// import envelope from './envelope.svg';
-import phone from './phone.svg';
 
 class Footer extends React.Component {
     render() {
         return (
-            <div>
-              <div>
-                <span>
-                  <img src={logo} alt="" />
-                  <h1>Gorib</h1>
-                </span>
-                <p>The Gorib charity provides enhanced services over and above what the NHS funds. help child </p>
-                <div>
-                  <button>
-                    <img src={facebook} alt="" />
-                  </button>
-                  <button>
-                    <img src={google} alt="" />
-                  </button>
-                  <button>
-                    <img src={linkedin} alt="" />
-                  </button>
-                  <button>
-                    <img src={twitter} alt="" />
-                  </button>
+            <div className="footer-wrapper">
+              <div className="footer-content">
+                <div className="footer-left footer">
+                  <span className="footer-logo">
+                    <img src={logo} alt="" className="logo" />
+                    <h1>Gorib</h1>
+                  </span>
+                  <p>The Gorib charity provides enhanced services over and above what the NHS funds. help child </p>
+                  <div className="footer-social">
+                  <i class="fab fa-facebook-f social"></i>
+
+                      <i class="fab fa-google social"></i>
+
+                      <i class="fab fa-linkedin-in social"></i>
+
+                      <i class="fab fa-twitter social"></i>
+                  </div>
+
+                  <div className="footer-email-wrapper">
+                    <input type="text" placeholder="Email Address" className="footer-email" />
+                    <span class="bottom email"></span>
+                    <span class="right email"></span>
+                    <span class="top email"></span>
+                    <span class="left email"></span>
+                  </div>
+                  <input type="submit" placeholder="Submit" className="footer-submit" />
+                </div>
+
+                <div className="footer-center footer">
+                  <div className="footer-services footer-services-top">
+                    <h3>Get Involved</h3>
+                    <ul>
+                      <button>Donate</button>
+                      <button>Sponsor</button>
+                      <button>Fundraise</button>
+                    </ul>
+                  </div>
+                  <div className="footer-services footer-services-bottom">
+                    <h3>Why You Can Help</h3>
+                    <ul>
+                      <button>Donate</button>
+                      <button>Sponsor</button>
+                      <button>Fundraise</button>
+                    </ul>
+                  </div>
+                </div>
+
+                <div className="footer-right footer">
+                    <h3>Update News</h3>
+                      <ul>
+                        <button>Campaign For Build Diamond Future Orphan</button>
+                        <button>New Award To Support Children Affected by Crises</button>
+                        <button>Campaign For Build Diamond Future Orphan</button>
+                      </ul>
                 </div>
               </div>
-              <div>
-                <div>
-                  <h3>Get Involved</h3>
-                  <ul>
-                    <li>Donate</li>
-                    <li>Sponsor</li>
-                    <li>Fundraise</li>
-                  </ul>
-                </div>
-                <div>
-                  <h3>Why You Can Help</h3>
-                  <ul>
-                    <li>Donate</li>
-                    <li>Sponsor</li>
-                    <li>Fundraise</li>
-                  </ul>
-                </div>
-                <div>
-                  <h3>Update News</h3>
-                  <span>
-                    <p>Campaign For Build Diamond Future Orphan</p>
-                  </span>
-                  <span>
-                    <p>New Award To Support Children Affected by Crises</p>
-                  </span>
-                  <span>
-                    <p>Campaign For Build Diamond Future Orphan</p>
-                  </span>
-                  <span>
-                    <p>New research has revealed a staggering lack of awareness</p>
-                  </span>
-                </div>
-              </div>
-              <div>
+              {/* <div className="footer-bottom">
                 <p>Gorib  © 2018 All Rights Reserved Terms of Use and Privacy Policy</p>
                 <p>+88 - 01912704287 <span><img src={phone} alt="" /></span></p>
-              </div>
+              </div> */}
             </div>
         )
     }
