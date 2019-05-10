@@ -1136,6 +1136,38 @@ button.button-single:hover {
 }
 
 
+@media only screen and (max-width:1025px) {
+	.events-wrapper {
+		max-width: unset;
+		padding:30px;
+	}
+	.events-bottom {
+		flex-direction: column;
+	}
+	.events-left {
+		left: 0;
+    	right: 0;
+		margin: 0 auto;
+		width:unset;
+	}
+	.events-left img {
+		max-width: unset;
+	}
+	.blob-copy {
+		top: 150px;
+	}
+	.events-right {
+		width:unset;
+		margin:50px 0 0 0;
+	}
+	.event-day {
+		justify-content: space-evenly;
+	}
+	.event-day-date {
+		width: unset;
+	}
+}
+
 @media only screen and (max-width: 800px) {
 	.volunteer-wrapper {
 		position: unset;
@@ -1159,9 +1191,6 @@ button.button-single:hover {
 	.volunteer-wrapper img {
 		display:none;
 	}
-
-
-
 	.footer {
 		padding:50px 50px 0 50px;
 		width:unset;
@@ -1203,7 +1232,7 @@ button.button-single:hover {
 	}
   }
 
-  @media only screen and (max-width: 420px) {
+  @media only screen and (max-width: 530px) {
 	.volunteer-content h2 {
 		margin:0;
 	}
@@ -1240,6 +1269,6 @@ button.button-single:hover {
 		margin:0;
 	}
 	.footer-right button {
-		width:unset;
+		width:100%;
 	}
   }
