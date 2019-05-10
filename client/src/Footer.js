@@ -29,8 +29,9 @@ class Footer extends React.Component {
                     <span class="right email"></span>
                     <span class="top email"></span>
                     <span class="left email"></span>
+                    <input type="submit" placeholder="Submit" className="footer-submit" />
                   </div>
-                  <input type="submit" placeholder="Submit" className="footer-submit" />
+                  
                 </div>
 
                 <div className="footer-center footer">
