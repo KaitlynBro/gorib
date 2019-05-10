@@ -1137,6 +1137,31 @@ button.button-single:hover {
 
 
 @media only screen and (max-width: 800px) {
+	.volunteer-wrapper {
+		position: unset;
+		margin:unset;
+		max-width: unset;
+	}
+	.volunteer-content {
+		position: unset;
+		width:100%;
+		box-sizing:border-box;
+	}
+	.volunteer-content h2, .volunteer-content-flex p {
+		color: #000;
+	}
+	.volunteer-content-flex {
+		flex-direction: column;
+	}
+	.volunteer-content-flex .button-single.white {
+		margin-left:0;
+	}
+	.volunteer-wrapper img {
+		display:none;
+	}
+
+
+
 	.footer {
 		padding:50px 50px 0 50px;
 		width:unset;
@@ -1179,11 +1204,17 @@ button.button-single:hover {
   }
 
   @media only screen and (max-width: 420px) {
+	.volunteer-content h2 {
+		margin:0;
+	}
 	.footer {
 		padding:20px;
 	}
 	.footer-wrapper {
 		padding-bottom:50px;
+	}
+	.footer {
+		padding:20px;
 	}
 	.footer-email-wrapper {
 		flex-direction: column;
@@ -1191,8 +1222,12 @@ button.button-single:hover {
 		margin: 0 auto;
 		width:100%;
 	}
+	.footer-social {
+		justify-content: space-between;
+	}
 	.footer-email-wrapper input {
-		width:unset;
+		width: 100%;
+		margin: 0 auto;
 	}
 	.footer-email-wrapper input:first-of-type {
 		margin-bottom:10px;
