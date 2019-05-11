@@ -1137,6 +1137,38 @@ button.button-single:hover {
 
 
 @media only screen and (max-width:1025px) {
+	.info-wrapper {
+		flex-direction: column;
+		margin:50px 0;
+		padding:30px;
+	}
+	.info-wrapper img {
+		max-width: unset;
+	}
+	.info-copy {
+		width: 100%;
+		order:0;
+		margin-bottom:50px;
+	}
+	.info-copy h3 {
+		max-width: 900px;
+	}
+	.info-copy-paragraph p {
+		max-width: 660px;	
+		margin-left: 0;
+	}
+	.info-copy-paragraph span {
+		right: 5%;
+		top: 0;
+	}
+	.info-bg {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin:0 auto;
+		order:1;
+	}
 	.events-wrapper {
 		max-width: unset;
 		padding:30px;
@@ -1169,6 +1201,21 @@ button.button-single:hover {
 }
 
 @media only screen and (max-width: 800px) {
+	.info-wrapper {
+		margin:0;
+	}
+	.info-copy-paragraph span {
+		transform: rotate(30deg);
+		top: -60px;
+		right: -10px;
+	}
+	.info-copy-paragraph span img {
+		width: 30px;
+		padding:10px;
+	}
+	.info-bg img {
+		max-width: 350px;
+	}
 	.stats-wrapper {
 		margin: 50px 0;
 	}

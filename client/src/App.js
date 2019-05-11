@@ -18,8 +18,8 @@ class App extends Component {
         {/* <Nav />
         <Header />
         <Services />
-        <Causes />
-        <Info /> */}
+        <Causes /> */}
+        <Info />
         <Donate />
         <Stats />
         <Events />
