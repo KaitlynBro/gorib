@@ -1137,6 +1137,24 @@ button.button-single:hover {
 
 
 @media only screen and (max-width:1025px) {
+	.header {
+		margin: 50px auto;
+	}
+	.header-image {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.header-image img {
+		max-width: 375px;
+	}
+	.header-content h1 {
+		font-size: 40px;
+		line-height: 50px;
+	}
+	.header-content img {
+		right: 190px;
+	}
 	.services-wrapper-bg {
 		display: none;
 	}
@@ -1242,6 +1260,23 @@ button.button-single:hover {
 }
 
 @media only screen and (max-width: 800px) {
+	.header {
+		flex-direction: column;
+	}
+	.header-content {
+		width: 100%;
+    	margin: 50px 0;
+    	padding: 20px;
+    	box-sizing: border-box;
+	}
+	.header-content img {
+		right:20px;
+		top: 10px;
+	}
+	.header-content h1 {
+		font-size: 30px;
+		line-height: 40px;
+	}
 	.causes-wrapper {
 		margin:50px 0 0 0;
 	}
