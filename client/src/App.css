@@ -1137,6 +1137,25 @@ button.button-single:hover {
 
 
 @media only screen and (max-width:1025px) {
+	.services-wrapper-bg {
+		display: none;
+	}
+	.services-wrapper .services-content {
+		position: unset;
+	}
+	.services-wrapper {
+		margin:50px 0;
+	}
+	.services-content {
+		flex-direction: column;
+		margin:0 auto;
+	}
+	.services-info p {
+		color: #272626;
+	}
+	.services-item {
+		width:100%;
+	}
 	.causes-wrapper-bg {
 		display: none;
 	}
@@ -1366,6 +1385,10 @@ button.button-single:hover {
   }
 
   @media only screen and (max-width: 530px) {
+	.services-info {
+		margin-top: 40px;
+		max-width: 350px;
+	}
 	.donate-content {
 		margin:20px 0;
 	}
