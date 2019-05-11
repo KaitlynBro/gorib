@@ -1137,6 +1137,28 @@ button.button-single:hover {
 
 
 @media only screen and (max-width:1025px) {
+	.causes-wrapper-bg {
+		display: none;
+	}
+	.causes-content {
+		position: unset;
+		flex-direction: column;
+	}
+	.cause {
+		display: flex;
+		width: 100%;
+		margin: 0 auto 50px auto;
+		justify-content: space-evenly;
+	}
+	.cause-text-top {
+		padding-bottom: 25px;
+	}
+	.causes-text-top h3 {
+		margin:10px;
+	}
+	.cause-text-bottom {
+		padding-bottom:20px;
+	}
 	.info-wrapper {
 		flex-direction: column;
 		margin:50px 0;
@@ -1201,6 +1223,23 @@ button.button-single:hover {
 }
 
 @media only screen and (max-width: 800px) {
+	.causes-wrapper {
+		margin:50px 0 0 0;
+	}
+	.causes-header {
+		max-width: 470px;
+	}
+	.cause {
+		flex-direction: column;
+		align-items: center;
+	}
+	.cause-text-buttons {
+		display:flex;
+		justify-content: center;
+	}
+	.cause-text-buttons .button-single {
+		max-width: 150px;
+	}
 	.info-wrapper {
 		margin:0;
 	}
