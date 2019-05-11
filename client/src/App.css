@@ -1169,6 +1169,53 @@ button.button-single:hover {
 }
 
 @media only screen and (max-width: 800px) {
+	.stats-wrapper {
+		margin: 50px 0;
+	}
+	.donate-content {
+		flex-direction: column;
+		margin:100px 0;
+	}
+	.donate-copy {
+		width: 100%;
+		margin: 0 auto;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		box-sizing:border-box;
+		padding-right:30px;
+		padding-left: 30px;
+	}
+	.donate-copy h3, .donate-copy p {
+		max-width: 600px
+	}
+	.donate-copy h3 {
+		font-size: 29px;
+		line-height: 40px;
+	}
+	.donate-copy h4 {
+		margin:10px 0;
+	}
+	.donate-copy img {
+		display: none;
+	}
+	.donate-image {
+		padding:0;
+	}
+	.donate-content:first-of-type .donate-copy, .donate-content:first-of-type .donate-image, .donate-content:nth-child(2) .donate-copy, .donate-content:nth-child(2) .donate-image {
+		order:unset;
+		width:100%;
+		max-width: 350px;
+		min-width: 350px;
+	}
+	.donate-image img:last-child {
+		display: none;
+	}
+	.donate-image img:first-of-type {
+		max-width: 250px;
+		min-width: 250px;
+	}
 	.volunteer-wrapper {
 		position: unset;
 		margin:unset;
@@ -1233,6 +1280,12 @@ button.button-single:hover {
   }
 
   @media only screen and (max-width: 530px) {
+	.donate-content {
+		margin:20px 0;
+	}
+	.donate-copy h4 {
+		width:100%;
+	}
 	.stats-wrapper {
 		position: unset;
 	}

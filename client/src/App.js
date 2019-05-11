@@ -19,8 +19,8 @@ class App extends Component {
         <Header />
         <Services />
         <Causes />
-        <Info />
-        <Donate /> */}
+        <Info /> */}
+        <Donate />
         <Stats />
         <Events />
         <Volunteer />
