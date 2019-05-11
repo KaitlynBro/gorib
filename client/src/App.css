@@ -1233,6 +1233,39 @@ button.button-single:hover {
   }
 
   @media only screen and (max-width: 530px) {
+	.stats-wrapper {
+		position: unset;
+	}
+	.stats-wrapper .stats-bg {
+		display: none;
+	}
+	.stat {
+		background-color:#fcb27b;
+		border-radius: 100%;
+		width:250px;
+		height: 250px;
+		margin:20px 0;
+		position: relative;
+	}
+	.stat-wrapper {
+		display: flex;
+		flex-direction: column;
+		align-items:center;
+		padding-top: 70px;
+	}
+	.stat-wrapper h3 {
+		margin:0 0 10px 0;
+		font-size: 20px;
+	}
+	.stat img {
+		position: absolute;
+		top:30px;
+	}
+	.stats-content {
+		position: unset;
+		flex-direction: column;
+		transform: unset;
+	}
 	.events-wrapper {
 		margin:0;
 		padding: 20px;

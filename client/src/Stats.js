@@ -13,23 +13,31 @@ class Stats extends React.Component {
                 <div className="stats-content">
                     <div className="stat">
                         <img src={people} alt="" />
-                        <h3>Volunteers</h3>
-                        <p>415</p>
+                        <div className="stat-wrapper">
+                            <h3>Volunteers</h3>
+                            <p>415</p>
+                        </div>
                     </div> 
                     <div className="stat">
                         <img src={hands} alt="" />
-                        <h3>Donors</h3>
-                        <p>2090</p>
+                        <div className="stat-wrapper">
+                            <h3>Donors</h3>
+                            <p>2090</p>
+                        </div>
                     </div> 
                     <div className="stat">
                         <img src={heartbeat} alt="" />
-                        <h3>People Save</h3>
-                        <p>9046</p>
+                        <div className="stat-wrapper">
+                            <h3>People Save</h3>
+                            <p>9046</p>
+                        </div>
                     </div> 
                     <div className="stat">
                         <img src={money} alt="" />
-                        <h3>Donated</h3>
-                        <p>900K</p>
+                        <div className="stat-wrapper">
+                            <h3>Donated</h3>
+                            <p>900K</p>
+                        </div>
                     </div>
                 </div>
 `            </div>
