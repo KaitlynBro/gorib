@@ -1233,6 +1233,93 @@ button.button-single:hover {
   }
 
   @media only screen and (max-width: 530px) {
+	.events-wrapper {
+		margin:0;
+		padding: 20px;
+	}
+	.events-top {
+		padding: 30px 0;
+		margin: 0;
+		border-bottom: 1px solid grey;
+	}
+	.events-top img {
+		margin-bottom:10px;
+	}
+	.events-top h2 {
+		font-size: 28px;
+		line-height: 38px;
+	}
+	.events-flex {
+		flex-direction: column;
+	}
+	.events-flex .button-single {
+		display: none;
+	}
+	.events-flex p {
+		max-width: unset;
+	}
+	.events-flex .button-single {
+		margin:20px 0 0 0;
+	}
+	.events-left img {
+		display:none;
+	}
+	.events-left {
+		position: unset;
+	}
+	.events-bottom {
+		display: flex;
+		flex-direction: column;
+		padding: 30px 0;
+	}
+	.event-date {
+		align-items: center;
+		margin: 0;
+	}
+	.event-date span {
+		font-size: 50px;
+		color: #272626;
+	}
+	.event-date p {
+		margin:0;
+	}
+	.blob-copy {
+		display: none;
+	}
+	.events-right {
+		margin:0;
+	}
+	.event-info {
+		font-size: 18px;
+		line-height: 28px;
+		color: #272626;
+	}
+	.event-date span {
+		font-size: 30px;
+	}
+	.event-day {
+		padding:0;
+	}
+	.event-day .event-day-number:first-of-type {
+		font-size: 30px;
+	}
+	.event-day .event-day-number:first-of-type:after {
+		width:40px;
+		height: 1.5px;
+	}
+	.event-day-times ul li {
+		font-size: 14px;
+		padding:0 10px;
+	}
+	.event-day-date:first-of-type {
+		width: unset;
+	}
+	.event-day .event-day-times:last-child p {
+		font-size: 14px;
+	}
+	.event-day-date:first-of-type p:last-child {
+		font-size: 14px;
+	}
 	.volunteer-content h2 {
 		margin:0;
 	}
