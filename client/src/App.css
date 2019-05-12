@@ -164,6 +164,7 @@ button.button-single:hover {
 	color: black;
 	font-family: 'Comfortaa', cursive;
 	margin:0;
+	max-width: 500px;
 }
 
 .header-content p {
@@ -1137,6 +1138,13 @@ button.button-single:hover {
 
 
 @media only screen and (max-width:1025px) {
+	.nav {
+		max-width: 1000px;
+		margin:0 auto;
+	}
+	.nav-logo-wrapper, .nav-items {
+		width:unset;
+	}
 	.header {
 		margin: 50px auto;
 	}
@@ -1151,9 +1159,10 @@ button.button-single:hover {
 	.header-content h1 {
 		font-size: 40px;
 		line-height: 50px;
+		max-width: 350px;
 	}
 	.header-content img {
-		right: 190px;
+		right: 90px;
 	}
 	.services-wrapper-bg {
 		display: none;
@@ -1260,18 +1269,40 @@ button.button-single:hover {
 }
 
 @media only screen and (max-width: 800px) {
+	.nav {
+		display: flex;
+		flex-wrap: wrap;
+		max-width: 700px;
+		margin: 0 auto;
+	}
+	.nav-items {
+		flex-wrap: wrap;
+		justify-content: flex-start;
+	}
+	.nav-item:not(:first-of-type) {
+		margin:0 20px;
+	}
+	.nav-item:first-of-type {
+		margin:0 20px 0 0;
+	}
+	span.nav-item.nav-item--search {
+		margin-top: 10px;
+	}
 	.header {
 		flex-direction: column;
+		margin:0;
 	}
 	.header-content {
 		width: 100%;
-    	margin: 50px 0;
     	padding: 20px;
     	box-sizing: border-box;
 	}
 	.header-content img {
 		right:20px;
 		top: 10px;
+	}
+	.header-image {
+		display:none;
 	}
 	.header-content h1 {
 		font-size: 30px;
@@ -1420,6 +1451,21 @@ button.button-single:hover {
   }
 
   @media only screen and (max-width: 530px) {
+	.nav {
+		max-width: 350px;
+		padding:20px 20px 0 20px;
+	}
+	.nav-items {
+		display: none;
+	}
+	.header-content h1 {
+		max-width: 350px;
+	}
+	.header-content img {
+		top: 100px;
+		right: 160px;
+		width: 30px;
+	}
 	.services-info {
 		margin-top: 40px;
 		max-width: 350px;
@@ -1587,5 +1633,11 @@ button.button-single:hover {
 	}
 	.footer-right button {
 		width:100%;
+	}
+  }
+
+  @media only screen and (max-width: 330px) {
+	.header-content img {
+		right:0;
 	}
   }

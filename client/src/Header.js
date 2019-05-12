@@ -11,7 +11,7 @@ class Header extends React.Component {
                 </div>
                 <div className="header-content">
                     <img src={orange} alt="" className="orange-blob" />
-                    <h1>Nonprofits<br /> get ready<br /> for your best year ever</h1>
+                    <h1>Nonprofits get readyfor your best year ever</h1>
                     <p>Join over 22 million people supporting charity and personal causes</p>
                     {/* MAKE BUTTON COMPONENT AND ADD IN HERE */}
                     <div className="header-content-buttons">
